@@ -36,7 +36,7 @@ libstruct2json = static_library('struct2json',
                                 dependencies: struct2json_deps,
                                 install: true)
 
-install_headers(struct2json_headers, install_dir: 'include')
+install_headers(struct2json_headers, install_dir: 'include/cJSON')
 
 pkg.generate(libstruct2json,
              name:'struct2json',
