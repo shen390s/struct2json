@@ -39,6 +39,6 @@ libstruct2json = static_library('struct2json',
 install_headers(struct2json_headers, install_dir: 'include')
 
 pkg.generate(libstruct2json,
-             name:' struct2json',
+             name:'struct2json',
              description: 'struct to json',
              version:'1.0.0')
